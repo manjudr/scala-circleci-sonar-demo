@@ -20,4 +20,19 @@ object HelloWorld {
     true
   }
 
+  def getBoolean: Boolean = {
+    println("Even Validation")
+    true
+  }
+
+  def getString: String = {
+    println("Even Validation")
+    ""
+  }
+
+  def getInt: Int = {
+    println("Even Validation")
+    0
+  }
+
 }
