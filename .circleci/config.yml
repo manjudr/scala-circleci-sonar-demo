@@ -36,7 +36,7 @@ jobs:
           name: sonar
           command: |
             export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
-            mvn -X sonar:sonar -Dsonar.projectKey=manjudr_scala-circleci-sonar-demo  -Dsonar.host.url=https://sonarcloud.io -Dsonar.scala.coverage.reportPaths=/home/circleci/project/scala-circleci-sonar-demo/target/scoverage.xml -Dsonar.organization=manjudr
+            mvn -X sonar:sonar -Dsonar.projectKey=manjudr_scala-circleci-sonar-demo  -Dsonar.host.url=https://sonarcloud.io -Dsonar.scala.coverage.reportPaths=/home/circleci/project/target/scoverage.xml -Dsonar.organization=manjudr
 workflows:
   version: 2.1
   workflow:
