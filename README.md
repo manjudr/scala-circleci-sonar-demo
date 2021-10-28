@@ -1,0 +1,1 @@
+# scala-circleci-sonar-demo
